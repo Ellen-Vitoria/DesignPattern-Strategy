@@ -9,7 +9,7 @@ O Strategy é um Design Pattern (Padrão de Projeto) que "define uma família de
 um deles e permite que os algoritmos variem independentemente entre clientes que os utilizam". Assim, o Strategy é utilizado
 quando é preciso um algoritmo cujos dados sejam tratados de modos diferentes.
 
-##Características
+### Características
 - Interface (ICalcMedia): regra de comportamento. Usada quando um objeto pode ser tratado com uma regra padrão. Parece 
 com Herança, porém, ao invés de herdar de uma classe só, é permitido a implemetação de múltiplas interfaces;<br><br>
 - Classes Concretas (MediaAritmetica/MediaGeometrica): classes que implementam a(s) Interface(s) da Strategy; <br><br>
